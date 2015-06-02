@@ -11,9 +11,21 @@
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 <body>
-<h1>hej</h1>
-<p>hejsan</p>
+	<div id="menu-top">
+		<ul>
+			<li>shoppingbag</li>
+			<li>kassa</li>
+		</ul>
+	</div>
 
+	<div id="category-top">
+		<ul>
+			<li>dam</li>
+			<li>herr</li>
+			<li>barn</li>
+			<li>home</li>
+		</ul>
+	</div>
 
 <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>	
 <script src="js/main.js"></script>
