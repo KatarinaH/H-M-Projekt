@@ -13,11 +13,11 @@
 </head>
 <body>
 	<div id="menu-top">
-		<img src="img/h&m.png" alt="H&M Logo">
-		<ul>
-			<li><i class="fa fa-shopping-cart"></i> shoppingbag</li>
-			<li>kassa</li>
-		</ul>
+			<img src="img/h&m.png" alt="H&M Logo">
+			<ul>
+				<li><i class="fa fa-shopping-cart"></i> shoppingbag</li>
+				<li>kassa</li>
+			</ul>
 	</div>
 
 	<div id="category-top">

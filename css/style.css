@@ -358,13 +358,22 @@ h1 {
 p {
   font-family: 'Open Sans', sans-serif; }
 
+.clearfix {
+  clear: both; }
+
 #menu-top {
   background-color: #355515;
   color: white;
   height: 40px;
+  margin-top: -18px;
   width: 100%;
-  text-align: right;
-  margin-top: -15px; }
+  position: relative;
+  text-align: right; }
+  #menu-top img {
+    height: 30px;
+    left: 10px;
+    position: absolute;
+    top: 5px; }
   #menu-top ul {
     list-style-type: none;
     margin-right: 40px;
