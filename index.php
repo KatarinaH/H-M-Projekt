@@ -13,9 +13,9 @@
 </head>
 <body>
 	<div id="menu-top">
-			<img src="img/h&m.png" alt="H&M Logo">
+			<img class="logo" src="img/h&m.png" alt="H&M Logo">
 			<ul>
-				<li><i class="fa fa-shopping-cart"></i> shoppingbag</li>
+				<li><img src="img/shopping_bag.png" alt="Shopping Bag"> shoppingbag</li>
 				<li>kassa</li>
 			</ul>
 	</div>

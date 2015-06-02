@@ -364,24 +364,27 @@ p {
 #menu-top {
   background-color: #355515;
   color: white;
-  height: 40px;
+  height: 50px;
   margin-top: -18px;
   width: 100%;
   position: relative;
   text-align: right; }
-  #menu-top img {
+  #menu-top .logo {
     height: 30px;
     left: 10px;
     position: absolute;
-    top: 5px; }
+    top: 10px; }
   #menu-top ul {
     list-style-type: none;
     margin-right: 40px;
-    padding-top: 10px; }
+    padding-top: 15px; }
     #menu-top ul li {
       display: inline-block;
       margin-right: 20px;
+      margin-top: -10px;
       text-transform: uppercase;
       font-size: .8em; }
+      #menu-top ul li img {
+        height: 30px; }
 
 /*# sourceMappingURL=style.css.map */
