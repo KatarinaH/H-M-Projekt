@@ -27,6 +27,7 @@
 			<li>barn</li>
 			<li>home</li>
 		</ul>
+		<hr />
 	</div>
 
 <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>	
