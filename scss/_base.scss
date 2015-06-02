@@ -1,3 +1,6 @@
+/********************************************************************************/
+/***************************** GENERAL ******************************************/
+/********************************************************************************/
 h1{
 	font-family: 'Lora', serif;
 	font-weight: 400;
@@ -16,6 +19,67 @@ p, li{
 	clear: both;
 }
 
+/********************************************************************************/
+/***************************** START ********************************************/
+/********************************************************************************/
+.start-left {
+	float: left;
+	height: 50vh;
+	width: 50%;
+}
+
+.start-right {
+	float: right;
+	height: 50vh;
+	width: 50%;
+}
+
+#up-left {
+	background-color: #04CDAE;
+}
+
+#up-right {
+	background: url('../img/cotton.jpg') no-repeat center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+	  	-o-background-size: cover;
+	  	background-size: cover;
+}
+
+#down-left {
+	background: url('../img/clothes.jpg') no-repeat center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+	  	-o-background-size: cover;
+	  	background-size: cover;
+}
+
+#down-right {
+	background-color: #562894;
+}
+
+.textarea {
+	height: 150px;
+	margin: 0 auto;
+	width: 360px;
+	transform:translateY(50%);
+	a {
+		text-decoration: none;
+		span {
+			font-family: 'Lora', serif;
+			font-weight: 400; 
+			color: white;
+			font-size: 8em;
+			text-align: center;	
+		}
+	}
+	
+}
+
+
+/********************************************************************************/
+/***************************** MENU-SHOP ****************************************/
+/********************************************************************************/
 #menu-top{
 	background-color: #355515;
 	color: white;
