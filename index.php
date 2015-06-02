@@ -12,6 +12,7 @@
 </head>
 <body>
 	<div id="menu-top">
+		<img src="img/h&m.png" alt="H&M Logo">
 		<ul>
 			<li>shoppingbag</li>
 			<li>kassa</li>
