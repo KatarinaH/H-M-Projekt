@@ -19,6 +19,7 @@
 				<li>kassa</li>
 			</ul>
 	</div>
+	<h1>Conscious - sustainable style</h1>
 
 	<div id="category-top">
 		<ul>

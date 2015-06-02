@@ -353,7 +353,12 @@ th {
   padding: 0; }
 
 h1 {
-  font-family: 'Lora', serif; }
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
+  color: #355515; }
 
 p, li {
   font-family: 'Open Sans', sans-serif; }
@@ -388,7 +393,7 @@ p, li {
         height: 30px; }
 
 #category-top {
-  margin-top: 70px;
+  margin-top: 50px;
   text-align: center; }
   #category-top ul {
     list-style-type: none; }
