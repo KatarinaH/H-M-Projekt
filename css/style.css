@@ -352,10 +352,10 @@ td,
 th {
   padding: 0; }
 
-<<<<<<< HEAD
-=======
-body {
-  background-color: blue; }
+h1 {
+  font-family: 'Lora', serif; }
 
->>>>>>> origin/master
+p {
+  font-family: 'Open Sans', sans-serif; }
+
 /*# sourceMappingURL=style.css.map */
