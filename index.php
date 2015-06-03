@@ -12,24 +12,27 @@
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 <body>
-	<div id="menu-top">
-			<img class="logo" src="img/h&m.png" alt="H&M Logo">
-			<ul>
-				<li><img src="img/shopping_bag.png" alt="Shopping Bag"> shoppingbag</li>
-				<li>kassa</li>
-			</ul>
-	</div>
-	<h1>Conscious - sustainable style</h1>
 
-	<div id="category-top">
-		<ul>
-			<li>dam</li>
-			<li>herr</li>
-			<li>barn</li>
-			<li>home</li>
-		</ul>
-		<hr />
+<div class="start-left" id="up-left">
+	<div class="shop textarea">
+		<span class="logo-title">OUR NAME</span>
+		<p class="info-text">Vårt arbetet för en mer hållbar framtid.</p>
+		<a href="shop.php"><span>SHOP</span></a>
 	</div>
+</div>
+<div class="start-right" id="up-right">
+	
+</div>
+<div class="start-left" id="down-left">
+	
+</div>
+<div class="start-right" id="down-right">
+	<div class="info textarea">
+	<span class="logo-title">OUR NAME</span>
+		<p class="info-text">Vill du veta mer?</p>
+		<a href="#"><span>INFO</span></a>
+	</div>
+</div>
 
 <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>	
 <script src="js/main.js"></script>
