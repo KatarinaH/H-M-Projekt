@@ -17,7 +17,7 @@
 	<div class="info textarea">
 	<span class="logo-title">OUR NAME</span>
 		<p class="info-text">Vill du veta mer?</p>
-		<a href="#"><span>INFO</span></a>
+		<a href="info.php"><span>INFO</span></a>
 	</div>
 </div>
 
