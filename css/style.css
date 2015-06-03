@@ -483,6 +483,10 @@ p, li {
   #info-wrapper .block2 {
     height: 200px;
     width: 100%; }
+  #info-wrapper .block3 {
+    height: 400px;
+    float: left;
+    width: 66%; }
 
 #info-wrapper:after {
   display: block;
