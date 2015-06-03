@@ -2,7 +2,7 @@
 
 	<div id="info-wrapper">
 		<div class="block3 grid-item">
-			<iframe width="100%" height="100%" src="https://www.youtube.com/embed/cfcJVC_pnOk" frameborder="0" allowfullscreen></iframe>
+			<iframe width="100%" height="100%" src="https://www.youtube.com/embed/cfcJVC_pnOk?autoplay=0&controls=0&showinfo=0&rel=0" frameborder="0" allowfullscreen></iframe>
 		</div>
 		<div class="block1 grid-item">
 			<div class="block2 box3"></div>
