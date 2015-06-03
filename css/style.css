@@ -524,6 +524,8 @@ p, li {
     height: 400px;
     float: left;
     width: 66%; }
+    #info-wrapper .block3 iframe {
+      padding-top: 10px; }
 
 #info-wrapper:after {
   display: block;
