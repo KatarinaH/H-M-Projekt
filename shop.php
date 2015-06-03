@@ -6,10 +6,10 @@
 
 	<div id="category-top">
 		<ul>
-			<li>dam</li>
-			<li>herr</li>
-			<li>barn</li>
-			<li>home</li>
+			<li class="woman" >dam</li>
+			<li class="man" >herr</li>
+			<li class="children" >barn</li>
+			<li class="home">home</li>
 		</ul>
 		<hr />
 	</div>
