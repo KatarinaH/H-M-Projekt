@@ -29,48 +29,156 @@
 		</div>
 	</div>
 
-	<div id="woman">
-		<div class="cell-woman top"></div>
-		<div class="cell-woman dress"></div>
-		<div class="cell-woman top"></div>
-		<div class="cell-woman jeans"></div>
-		<div class="cell-woman dress"></div>
-		<div class="cell-woman jeans"></div>
-		<div class="cell-woman top"></div>
-		<div class="cell-woman dress"></div>
+	<div class="clothes" id="woman">
+		<div class="grid-item cell-woman top">
+			<img src="clothes/woman/top1.jpg" alt="Top">
+		</div>
+
+		<div class="grid-item cell-woman dress">
+			<img src="clothes/woman/dress3.jpg" alt="Dress">
+		</div>
+
+		<div class="grid-item cell-woman top">
+			<img src="clothes/woman/top2.jpg" alt="Top">
+		</div>
+
+		<div class="grid-item cell-woman jeans">
+			<img src="clothes/woman/jeans2.jpg" alt="Jeans">
+		</div>
+
+		<div class="grid-item cell-woman dress">
+			<img src="clothes/woman/dress2.jpg" alt="Dress">
+		</div>
+
+		<div class="grid-item cell-woman jeans">
+			<img src="clothes/woman/jeans1.jpg" alt="Jeans">
+		</div>
+
+		<div class="grid-item cell-woman top">
+			<img src="clothes/woman/top3.jpg" alt="Top">
+		</div>
+
+		<div class="grid-item cell-woman dress">
+			<img src="clothes/woman/dress1.jpg" alt="dress">
+		</div>
+
+		<div class="grid-item cell-woman top">
+			<img src="clothes/woman/top4.jpg" alt="Top">
+		</div>
 	</div>
 
-	<div id="man">
-		<div class="cell-man t-shirt"></div>
-		<div class="cell-man jacket"></div>
-		<div class="cell-man t-shirt"></div>
-		<div class="cell-man jeans"></div>
-		<div class="cell-man jacket"></div>
-		<div class="cell-man jeans"></div>
-		<div class="cell-man t-shirt"></div>
-		<div class="cell-man jacket"></div>
+	<div class="clothes" id="man">
+		<div class="grid-item cell-man t-shirt">
+			<img src="clothes/man/t-shirt1.jpg" alt="T-shirt">
+		</div>
+
+		<div class="grid-item cell-man jacket">
+			<img src="clothes/man/jacket1.jpg" alt="jacket">
+		</div>
+
+		<div class="grid-item cell-man t-shirt">
+			<img src="clothes/man/t-shirt2.jpg" alt="T-shirt">
+		</div>
+
+		<div class="grid-item cell-man jeans">
+			<img src="clothes/man/jeans1.jpg" alt="jeans">
+		</div>
+
+		<div class="grid-item cell-man jacket">
+			<img src="clothes/man/jacket2.jpg" alt="jacket">
+		</div>
+
+		<div class="grid-item cell-man jeans">
+			<img src="clothes/man/jeans2.jpg" alt="jeans">
+		</div>
+
+		<div class="grid-item cell-man t-shirt">
+			<img src="clothes/man/t-shirt2.jpg" alt="T-shirt">
+		</div>
+
+		<div class="grid-item cell-man jeans">
+			<img src="clothes/man/jeans3.jpg" alt="jeans">
+		</div>
+
+		<div class="grid-item cell-man t-shirt">
+			<img src="clothes/man/t-shirt4.jpg" alt="T-shirt">
+		</div>
 	</div>
 
-	<div id="kids">
-		<div class="cell-woman top"></div>
-		<div class="cell-woman shorts"></div>
-		<div class="cell-woman top"></div>
-		<div class="cell-woman jeans"></div>
-		<div class="cell-woman shorts"></div>
-		<div class="cell-woman jeans"></div>
-		<div class="cell-woman top"></div>
-		<div class="cell-woman shorts"></div>
+	<div class="clothes" id="kids">
+		<div class="grid-item cell-kids top">
+			<img src="clothes/kids/top1.jpg" alt="top">
+		</div>
+
+		<div class="grid-item cell-kids shorts">
+			<img src="clothes/kids/shorts1.jpg" alt="shorts">
+		</div>
+
+		<div class="grid-item cell-kids top">
+			<img src="clothes/kids/top2.jpg" alt="top">
+		</div>
+
+		<div class="grid-item cell-kids pants">
+			<img src="clothes/kids/pants1.jpg" alt="pants">
+		</div>
+
+		<div class="grid-item cell-kids shorts">
+			<img src="clothes/kids/shorts3.jpg" alt="shorts">
+		</div>
+
+		<div class="grid-item cell-kids pants">
+			<img src="clothes/kids/pants2.jpg" alt="pants">
+		</div>
+
+		<div class="grid-item cell-kids top">
+			<img src="clothes/kids/top3.jpg" alt="top">
+		</div>
+
+		<div class="grid-item cell-kids shorts">
+			<img src="clothes/kids/shorts2.jpg" alt="shorts">
+		</div>
+
+		<div class="grid-item cell-kids top">
+			<img src="clothes/kids/top4.jpg" alt="top">
+		</div>
 	</div>
 
-	<div id="home">
-		<div class="cell-woman kitchen"></div>
-		<div class="cell-woman livingroom"></div>
-		<div class="cell-woman kitchen"></div>
-		<div class="cell-woman bathroom"></div>
-		<div class="cell-woman livingroom"></div>
-		<div class="cell-woman bathroom"></div>
-		<div class="cell-woman kitchen"></div>
-		<div class="cell-woman livingroom"></div>
+	<div class="clothes" id="home">
+		<div class="grid-item cell-home kitchen">
+			<img src="clothes/home/kitchen1.jpg" alt="kitchen">
+		</div>
+
+		<div class="grid-item cell-home livingroom">
+			<img src="clothes/home/livingroom2.jpg" alt="livingroom">
+		</div>
+
+		<div class="grid-item cell-home kitchen">
+			<img src="clothes/home/kitchen2.jpg" alt="kitchen">
+		</div>
+
+		<div class="grid-item cell-home bedroom">
+			<img src="clothes/home/bedroom2.jpg" alt="bedroom">
+		</div>
+
+		<div class="grid-item cell-home kitchen">
+			<img src="clothes/home/kitchen3.jpg" alt="kitchen">
+		</div>
+
+		<div class="grid-item cell-home bedroom">
+			<img src="clothes/home/bedroom1.jpg" alt="bedroom">
+		</div>
+
+		<div class="grid-item cell-home kitchen">
+			<img src="clothes/home/kitchen4.jpg" alt="kitchen">
+		</div>
+
+		<div class="grid-item cell-home livingroom">
+			<img src="clothes/home/livingroom1.jpg" alt="livingroom">
+		</div>
+
+		<div class="grid-item cell-home livingroom">
+			<img src="clothes/home/livingroom3.jpg" alt="livingroom">
+		</div>
 	</div>
 
 <?php
