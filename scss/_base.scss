@@ -147,7 +147,7 @@ p, li{
 }
 
 /********************************************************************************/
-/***************************** MENU-SHOP ****************************************/
+/***************************** INFO PAGE ****************************************/
 /********************************************************************************/
 
 #info-wrapper{
@@ -155,18 +155,16 @@ p, li{
 	padding-top: 100px;
 	width: 80%;
 
-	.block1, .block2{
+	.block1{
+		height: 400px;
 		float: left;
-		outline: solid 1px black;
+		//outline: solid 1px black;
 		width: 33%;
 	}
 
-	.block1{
-		height: 200px;
-	}
-
 	.block2{
-		height: 400px;
+		height: 200px;
+		width: 100%;
 	}
 }
 
@@ -174,4 +172,40 @@ p, li{
   display: block;
   clear: both;
 }
+
+.box1, .box2, .box3, .box4, .box5, .box5, .box6, .box7, .box8, .box9, .box10, .box11, .box12 {
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+	  	-o-background-size: cover;
+	  	background-size: cover;
+}
+
+
+
+.box3{
+	background: url('../img/water.png') no-repeat center center;
+}
+
+.box4{
+	background: url('../img/bomull.png') no-repeat center center;
+}
+
+.box5{
+	background: url('../img/salary.png') no-repeat center center;
+}
+
+.box6{
+	background: url('../img/work.png') no-repeat center center;
+}
+
+.box10{
+	background: url('../img/animals.png') no-repeat center center;
+}
+
+.box11{
+	background: url('../img/sustainable.png') no-repeat center center;
+}
+
+
+
 
