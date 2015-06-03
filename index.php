@@ -1,5 +1,6 @@
 <?php include 'header.php'; ?>
 
+
 <div class="start-left" id="up-left">
 	<div class="shop textarea">
 		<span class="logo-title">OUR NAME</span>
@@ -21,7 +22,6 @@
 	</div>
 </div>
 
-<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>	
-<script src="js/main.js"></script>
-</body>
-</html>
+<?php
+include 'footer.php';
+?>
