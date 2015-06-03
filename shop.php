@@ -15,10 +15,18 @@
 	</div>
 
 	<div id="start-view">
-		<div class="woman cell"></div>
-		<div class="man cell"></div>
-		<div class="children cell"></div>
-		<div class="home cell"></div>
+		<div class="woman cell">
+			<span>WOMAN</span>
+		</div>
+		<div class="man cell">
+			<span>MAN</span>
+		</div>
+		<div class="children cell">
+			<span>KIDS</span>
+		</div>
+		<div class="home cell">
+			<span>HOME</span>
+		</div>
 	</div>
 
 <?php
