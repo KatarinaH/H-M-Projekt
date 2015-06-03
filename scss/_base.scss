@@ -159,9 +159,9 @@ p, li{
 	margin: 0 auto;
 	width: 80%;
 	.cell {
+		box-shadow: 5px 5px 5px #888888;
 		float: left;
 		height: 50vh;
-		outline: 1px solid black;
 		margin: 2%;
 		width: 45%;
 		.cell-text {
@@ -202,6 +202,10 @@ p, li{
 	  	background-size: cover;
 	}
 
+}
+
+#woman, #man, #kids, #home {
+	display: none;
 }
 
 

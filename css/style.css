@@ -478,9 +478,9 @@ p, li {
   margin: 0 auto;
   width: 80%; }
   #start-view .cell {
+    box-shadow: 5px 5px 5px #888888;
     float: left;
     height: 50vh;
-    outline: 1px solid black;
     margin: 2%;
     width: 45%; }
     #start-view .cell .cell-text {
@@ -514,6 +514,9 @@ p, li {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; }
+
+#woman, #man, #kids, #home {
+  display: none; }
 
 /********************************************************************************/
 /***************************** INFO PAGE ****************************************/
