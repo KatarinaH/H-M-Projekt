@@ -127,7 +127,7 @@ p, li{
 	}
 }
 
-/********************************* CATEGORY *****************************************/
+/********************************* CATEGORY BAR*****************************************/
 
 #category-top{
 	margin-top: 50px;
@@ -152,6 +152,48 @@ p, li{
 }
 
 /********************************* LANDING PAGE ***************************************/
+#start-view {
+	margin: 0 auto;
+	width: 80%;
+	.cell {
+		float: left;
+		height: 50vh;
+		outline: 1px solid black;
+		margin: 2%;
+		width: 45%;
+	}
+	.woman{
+		background: url('../img/woman.jpg') no-repeat center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+	  	-o-background-size: cover;
+	  	background-size: cover;
+	}
+	.man{
+		background: url('../img/man.jpg') no-repeat center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+	  	-o-background-size: cover;
+	  	background-size: cover;
+	}
+	.children {
+		background: url('../img/children.jpg') no-repeat center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+	  	-o-background-size: cover;
+	  	background-size: cover;
+	}
+	.home {
+		background: url('../img/home.jpg') no-repeat center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+	  	-o-background-size: cover;
+	  	background-size: cover;
+	}
+
+}
+
+
 
 /********************************************************************************/
 /***************************** INFO PAGE ****************************************/
