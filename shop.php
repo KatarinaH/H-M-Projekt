@@ -29,6 +29,50 @@
 		</div>
 	</div>
 
+	<div id="woman">
+		<div class="cell-woman top"></div>
+		<div class="cell-woman dress"></div>
+		<div class="cell-woman top"></div>
+		<div class="cell-woman jeans"></div>
+		<div class="cell-woman dress"></div>
+		<div class="cell-woman jeans"></div>
+		<div class="cell-woman top"></div>
+		<div class="cell-woman dress"></div>
+	</div>
+
+	<div id="man">
+		<div class="cell-man t-shirt"></div>
+		<div class="cell-man jacket"></div>
+		<div class="cell-man t-shirt"></div>
+		<div class="cell-man jeans"></div>
+		<div class="cell-man jacket"></div>
+		<div class="cell-man jeans"></div>
+		<div class="cell-man t-shirt"></div>
+		<div class="cell-man jacket"></div>
+	</div>
+
+	<div id="kids">
+		<div class="cell-woman top"></div>
+		<div class="cell-woman shorts"></div>
+		<div class="cell-woman top"></div>
+		<div class="cell-woman jeans"></div>
+		<div class="cell-woman shorts"></div>
+		<div class="cell-woman jeans"></div>
+		<div class="cell-woman top"></div>
+		<div class="cell-woman shorts"></div>
+	</div>
+
+	<div id="home">
+		<div class="cell-woman kitchen"></div>
+		<div class="cell-woman livingroom"></div>
+		<div class="cell-woman kitchen"></div>
+		<div class="cell-woman bathroom"></div>
+		<div class="cell-woman livingroom"></div>
+		<div class="cell-woman bathroom"></div>
+		<div class="cell-woman kitchen"></div>
+		<div class="cell-woman livingroom"></div>
+	</div>
+
 <?php
 include 'footer.php';
 ?>
