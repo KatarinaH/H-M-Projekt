@@ -31,6 +31,7 @@ $(document).ready( function() {
 function hideContent() {
 	$('#start-view').hide();
    	$('.clothes').hide();
+      $('#category-top').show();
 }
 	
 
