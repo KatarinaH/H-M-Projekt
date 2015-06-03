@@ -59,18 +59,30 @@ p, li{
 }
 
 .textarea {
-	height: 150px;
+	color: white;
+	height: 60%;
 	margin: 0 auto;
 	width: 360px;
-	transform:translateY(50%);
+	text-align: center;
+	transform:translateY(30%);
+	.logo-title {
+		font-family: 'Lora', serif;
+		font-weight: 400; 
+		font-size: 2em;
+	}
+	.info-text {
+		margin-bottom: 40px;
+		padding: 10px;
+	}
 	a {
+		color: white;
 		text-decoration: none;
 		span {
 			font-family: 'Lora', serif;
 			font-weight: 400; 
-			color: white;
-			font-size: 8em;
-			text-align: center;	
+			font-size: 2em;
+			outline: 3px solid white;
+			padding: 10px 30px;
 		}
 	}
 	
