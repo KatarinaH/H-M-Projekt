@@ -218,25 +218,35 @@ p, li{
 	.block1{
 		height: 400px;
 		float: left;
-		//outline: solid 1px black;
-		width: 33%;
+		margin: 2%;
+		outline: solid 1px black;
+		width: 29%;
 	}
 
 	.block2{
-		height: 200px;
+		height: 180px;
 		width: 100%;
+		position: absolute;
 	}
 
 	.block3{
 		height: 400px;
 		float: left;
-		//outline: solid 1px black;
-		width: 66%;
+		margin: 2%;
+		outline: solid 1px black;
+		width: 62%;
 
 		iframe{
-			padding-top: 10px;
 		}
 	}
+}
+
+.block2:nth-child(even) {
+	top: 0;
+}
+.block2:nth-child(odd) {
+	bottom: 0;
+	
 }
 
 #info-wrapper:after {
@@ -244,38 +254,54 @@ p, li{
   clear: both;
 }
 
-.box1, .box2, .box3, .box4, .box5, .box5, .box6, .box7, .box8, .box9, .box10, .box11, .box12 {
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-	  	-o-background-size: cover;
-	  	background-size: cover;
-}
-
-
-
 .box3{
 	background: url('../img/water.png') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 }
 
 .box4{
 	background: url('../img/bomull.png') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 }
 
 .box5{
 	background: url('../img/salary.png') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 }
 
 .box6{
 	background: url('../img/work.png') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 }
 
-.box10{
-	background: url('../img/animals.png') no-repeat center center;
+.box7{
+	background: url('../img/woman2.jpg') no-repeat center center;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+  	-o-background-size: contain;
+  	background-size: contain;
 }
 
-.box11{
-	background: url('../img/sustainable.png') no-repeat center center;
+.box8{
+	background: url('../img/woman2.jpg') no-repeat center center;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+  	-o-background-size: contain;
+  	background-size: contain;
 }
+
 
 
 

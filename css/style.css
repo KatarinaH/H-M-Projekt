@@ -525,43 +525,70 @@ p, li {
   #info-wrapper .block1 {
     height: 400px;
     float: left;
-    width: 33%; }
+    margin: 2%;
+    outline: solid 1px black;
+    width: 29%; }
   #info-wrapper .block2 {
-    height: 200px;
-    width: 100%; }
+    height: 180px;
+    width: 100%;
+    position: absolute; }
   #info-wrapper .block3 {
     height: 400px;
     float: left;
-    width: 66%; }
-    #info-wrapper .block3 iframe {
-      padding-top: 10px; }
+    margin: 2%;
+    outline: solid 1px black;
+    width: 62%; }
+
+.block2:nth-child(even) {
+  top: 0; }
+
+.block2:nth-child(odd) {
+  bottom: 0; }
 
 #info-wrapper:after {
   display: block;
   clear: both; }
 
-.box1, .box2, .box3, .box4, .box5, .box5, .box6, .box7, .box8, .box9, .box10, .box11, .box12 {
+.box3 {
+  background: url("../img/water.png") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
 
-.box3 {
-  background: url("../img/water.png") no-repeat center center; }
-
 .box4 {
-  background: url("../img/bomull.png") no-repeat center center; }
+  background: url("../img/bomull.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
 .box5 {
-  background: url("../img/salary.png") no-repeat center center; }
+  background: url("../img/salary.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
 .box6 {
-  background: url("../img/work.png") no-repeat center center; }
+  background: url("../img/work.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
-.box10 {
-  background: url("../img/animals.png") no-repeat center center; }
+.box7 {
+  background: url("../img/woman2.jpg") no-repeat center center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain; }
 
-.box11 {
-  background: url("../img/sustainable.png") no-repeat center center; }
+.box8 {
+  background: url("../img/woman2.jpg") no-repeat center center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain; }
 
 /*# sourceMappingURL=style.css.map */
