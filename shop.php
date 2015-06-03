@@ -16,16 +16,16 @@
 
 	<div id="start-view">
 		<div class="woman cell">
-			<span>WOMAN</span>
+			<span class="cell-text">WOMAN</span>
 		</div>
 		<div class="man cell">
-			<span>MAN</span>
+			<span class="cell-text">MAN</span>
 		</div>
 		<div class="children cell">
-			<span>KIDS</span>
+			<span class="cell-text">KIDS</span>
 		</div>
 		<div class="home cell">
-			<span>HOME</span>
+			<span class="cell-text">HOME</span>
 		</div>
 	</div>
 
