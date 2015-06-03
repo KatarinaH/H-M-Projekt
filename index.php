@@ -1,6 +1,5 @@
 <?php include 'header.php'; ?>
 
-<?php echo "foo"; ?>
 <div class="start-left" id="up-left">
 	<div class="shop textarea">
 		<span class="logo-title">OUR NAME</span>
