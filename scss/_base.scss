@@ -134,3 +134,32 @@ p, li{
 
 }
 
+/********************************************************************************/
+/***************************** MENU-SHOP ****************************************/
+/********************************************************************************/
+
+#info-wrapper{
+	margin: 0 auto;
+	padding-top: 100px;
+	width: 80%;
+
+	.block1, .block2{
+		float: left;
+		outline: solid 1px black;
+		width: 33%;
+	}
+
+	.block1{
+		height: 200px;
+	}
+
+	.block2{
+		height: 400px;
+	}
+}
+
+#info-wrapper:after {
+  display: block;
+  clear: both;
+}
+

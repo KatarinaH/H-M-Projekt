@@ -459,4 +459,24 @@ p, li {
     margin: 0 auto;
     width: 60%; }
 
+/********************************************************************************/
+/***************************** MENU-SHOP ****************************************/
+/********************************************************************************/
+#info-wrapper {
+  margin: 0 auto;
+  padding-top: 100px;
+  width: 80%; }
+  #info-wrapper .block1, #info-wrapper .block2 {
+    float: left;
+    outline: solid 1px black;
+    width: 33%; }
+  #info-wrapper .block1 {
+    height: 200px; }
+  #info-wrapper .block2 {
+    height: 400px; }
+
+#info-wrapper:after {
+  display: block;
+  clear: both; }
+
 /*# sourceMappingURL=style.css.map */
