@@ -3,7 +3,7 @@
 	include 'menu-shop.php';
 ?>
 	
-		<h1>Conscious - sustainable style</h1>
+		<h1 class="shop-title"><a href="shop.php">Conscious - sustainable style</a></h1>
 
 		<div id="category-top">
 			<ul>
