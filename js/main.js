@@ -26,6 +26,18 @@ $(document).ready( function() {
 		renderGrid();
 		});
 	renderGrid();
+
+
+	$('.box8').click(function(){
+        $('#overlay').fadeIn('fast',function(){
+            $('#box').animate({'top':'10%'},500);
+        });
+    });
+    $('#boxclose').click(function(){
+        $('#box').animate({'top':'-100%'},500,function(){
+            $('#overlay').fadeOut('fast');
+        });
+    });
 });
 
 function hideContent() {
