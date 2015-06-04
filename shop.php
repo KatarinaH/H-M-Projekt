@@ -7,10 +7,10 @@
 
 		<div id="category-top">
 			<ul>
-				<li id="woman2" class="filter-all">dam</li>
-				<li id="man2" class="filter-all" >herr</li>
-				<li id="children2" class="filter-all" >barn</li>
-				<li id="home2" class="filter-all">home</li>
+				<li id="woman2" class="filter-all">WOMAN</li>
+				<li id="man2" class="filter-all" >MAN</li>
+				<li id="children2" class="filter-all" >KIDS</li>
+				<li id="home2" class="filter-all">HOME</li>
 			</ul>
 			<hr />
 		</div>

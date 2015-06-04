@@ -477,6 +477,7 @@ p, li {
       display: inline-block;
       text-transform: uppercase;
       padding: 0 40px;
+      font-family: 'Lora', serif;
       font-weight: bold; }
   #category-top hr {
     margin: 0 auto;
@@ -536,6 +537,10 @@ p, li {
     #shop-wrapper .category-side ul {
       list-style-type: none;
       padding-left: 0; }
+      #shop-wrapper .category-side ul span {
+        font-weight: bold; }
+      #shop-wrapper .category-side ul li {
+        padding-top: 1em; }
   #shop-wrapper .clothes {
     float: left;
     margin-top: 2%;

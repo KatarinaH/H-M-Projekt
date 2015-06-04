@@ -156,6 +156,7 @@ p, li{
 			display: inline-block;
 			text-transform: uppercase;
 			padding: 0 40px;
+			font-family: 'Lora', serif;
 			font-weight: bold;
 		}
 	}
@@ -231,6 +232,12 @@ p, li{
 		ul{
 			list-style-type: none;
 			padding-left: 0;
+			span{
+				font-weight: bold;
+			}
+			li{
+				padding-top: 1em;
+			}
 		}
 	}
 
