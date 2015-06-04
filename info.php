@@ -39,7 +39,6 @@
 			</div>
 		</div>
 		<!--#pop up box-->
-
 		<!-- #TOP ROW-->
 
 		<!-- BOTTOM ROW-->
@@ -81,10 +80,6 @@
 		</div>
 		<!--#div bottom right-->
 		<!-- #BOTTOM ROW-->
-		
-
 	</div>
 
-<?php
-include 'footer.php';
-?>
+<?php include 'footer.php'; ?>

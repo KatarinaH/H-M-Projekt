@@ -88,21 +88,17 @@ p, li{
 			padding: 10px 30px;
 		}
 	}
-	
 }
-
 
 /********************************************************************************/
 /********************************* SHOP *****************************************/
 /********************************************************************************/
-
 
 /********************************* MENU *****************************************/
 #menu-top, #menu-top-info{
 	background-color: #355515;
 	color: white;
 	height: 50px;
-	//margin-top: -18px;
 	width: 100%;
 	position: relative;
 	text-align: right;
@@ -112,7 +108,6 @@ p, li{
 		position: absolute;
 		top: 10px;
 	}
-
 	ul{
 		list-style-type: none;
 		margin-right: 40px;
@@ -132,11 +127,9 @@ p, li{
 			}
 		}
 	}
-
 	a{
 		color: white;
 		text-decoration: none;
-
 		&:visited{
 			color: white;
 		}
@@ -157,7 +150,6 @@ p, li{
 	text-align: center;
 	ul{
 		list-style-type: none;
-
 		li{
 			display: inline-block;
 			text-transform: uppercase;
@@ -166,13 +158,10 @@ p, li{
 			font-weight: bold;
 		}
 	}
-
 	hr{
-
 		margin: 0 auto;
 		width: 70%;
 	}
-
 }
 
 /********************************* LANDING PAGE ***************************************/
@@ -222,7 +211,6 @@ p, li{
 	  	-o-background-size: cover;
 	  	background-size: cover;
 	}
-
 }
 
 /********************************* CLOTHES ***************************************/
@@ -234,7 +222,6 @@ p, li{
 	margin-top: 2%;
 	margin-right: 1%;
 	width: 13%;
-	//outline: 1px solid green;
 		ul{
 			list-style-type: none;
 			padding-left: 0;
@@ -250,35 +237,46 @@ p, li{
 	.clothes {
 		float: left;
 		margin-top: 2%;
-		//outline: 1px solid red;
 		width: 84%;
 		.cell-item {
 			margin: 2%;
 			outline: 1px solid #e8e8ee;
 			width: 29%;
-			//background-color: #e8eeee;
 			//box-shadow: 2px 2px 2px #888888;
 			img {
 				height: auto;
 				width: 100%;
 			}
-
 			p{
 				padding-left: 5%;
 				margin-top: 1%;
 				margin-bottom: 4%; 
 			}
 		}
+		.buy{
+			background-color: #355515;
+			color: white;
+			float: right;
+			font-family: 'Open Sans', sans-serif;
+			font-size: .8em;
+			border-radius:20px;
+			-webkit-border-radius:20px;
+			-moz-border-radius:20px;
+			border:0;
+			margin: 3%;
+			padding: 2%;
+			line-height: 1em;
+			text-shadow:#C17C3A 0 -1px 0;
+			width: 50px;
+			height:2em;
+			vertical-align: middle;
+		}
 	}
-
 	#woman, #man, #kids, #home, .category-all {
 		display: none;
 	}
 }
 	
-
-
-
 /********************************************************************************/
 /***************************** INFO PAGE ****************************************/
 /********************************************************************************/
@@ -287,7 +285,6 @@ p, li{
 	margin: 0 auto;
 	padding-top: 50px;
 	width: 80%;
-
 	.cell-text {
 		background-color: rgba(250, 250, 250, .6);
 		display: block;
@@ -297,7 +294,6 @@ p, li{
 		text-transform: uppercase;
 		width: 100%;
 	}
-
 	.block1{
 		height: 350px;
 		float: left;
@@ -314,7 +310,6 @@ p, li{
 	    right:0px;
 	    z-index:100;
 	}
-
 	.box{
 	    position:fixed;
 	    top:-110%;
@@ -330,9 +325,8 @@ p, li{
 	    -moz-box-shadow: 0 1px 5px #333;
 	    -webkit-box-shadow: 0 1px 5px #333;
 	    z-index:101;
-
 	    .boxclose{
-		    float:right;
+		    float: right;
 		    width: 26px;
 		    height: 26px;
 		    margin-top: -10px;
@@ -363,10 +357,7 @@ p, li{
 				width: 25%;
 			}
 		}
-		
 	}
-
-
 
 	.block2{
 		box-shadow: 5px 5px 5px #888888;
@@ -374,24 +365,20 @@ p, li{
 		width: 100%;
 		position: absolute;
 	}
-
 	.block3{
 		box-shadow: 5px 5px 5px #888888;
 		height: 350px;
 		float: left;
 		margin: 2%;
 		width: 62%;
-	
 	}
-
 	.video-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 0; 
-    height: 0; 
-    overflow: hidden;
+	    position: relative;
+	    padding-bottom: 56.25%;
+	    padding-top: 0; 
+	    height: 0; 
+	    overflow: hidden;
 	}
-	 
 	.video-container iframe, .video-container object, .video-container embed {
 	    position: absolute;
 	    top: 0;
@@ -399,7 +386,6 @@ p, li{
 	    width: 100%;
 	    height: 100%;
 	}
-
 	.box7, .box8{
 		box-shadow: 5px 5px 5px #888888;
 	}
@@ -409,8 +395,7 @@ p, li{
 	top: 0;
 }
 .block2:nth-child(odd) {
-	bottom: 0;
-	
+	bottom: 0;	
 }
 
 #info-wrapper:after {

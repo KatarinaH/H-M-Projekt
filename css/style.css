@@ -561,6 +561,23 @@ p, li {
         padding-left: 5%;
         margin-top: 1%;
         margin-bottom: 4%; }
+    #shop-wrapper .clothes .buy {
+      background-color: #355515;
+      color: white;
+      float: right;
+      font-family: 'Open Sans', sans-serif;
+      font-size: .8em;
+      border-radius: 20px;
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      border: 0;
+      margin: 3%;
+      padding: 2%;
+      line-height: 1em;
+      text-shadow: #C17C3A 0 -1px 0;
+      width: 50px;
+      height: 2em;
+      vertical-align: middle; }
   #shop-wrapper #woman, #shop-wrapper #man, #shop-wrapper #kids, #shop-wrapper #home, #shop-wrapper .category-all {
     display: none; }
 
