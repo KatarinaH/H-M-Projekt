@@ -432,7 +432,7 @@ p, li {
 /********************************* SHOP *****************************************/
 /********************************************************************************/
 /********************************* MENU *****************************************/
-#menu-top {
+#menu-top, #menu-top-info {
   background-color: #355515;
   color: white;
   height: 50px;
@@ -440,23 +440,28 @@ p, li {
   width: 100%;
   position: relative;
   text-align: right; }
-  #menu-top .logo {
+  #menu-top .logo, #menu-top-info .logo {
     height: 30px;
     left: 10px;
     position: absolute;
     top: 10px; }
-  #menu-top ul {
+  #menu-top ul, #menu-top-info ul {
     list-style-type: none;
     margin-right: 40px;
     padding-top: 15px; }
-    #menu-top ul li {
+    #menu-top ul li, #menu-top-info ul li {
       display: inline-block;
       margin-right: 20px;
       margin-top: -10px;
       text-transform: uppercase;
       font-size: .8em; }
-      #menu-top ul li img {
+      #menu-top ul li img, #menu-top-info ul li img {
         height: 30px; }
+      #menu-top ul li a, #menu-top-info ul li a {
+        color: white;
+        text-decoration: none; }
+        #menu-top ul li a:visited, #menu-top-info ul li a:visited {
+          color: white; }
 
 /********************************* CATEGORY BAR*****************************************/
 #category-top {
@@ -546,17 +551,7 @@ p, li {
 #info-wrapper {
   margin: 0 auto;
   padding-top: 50px;
-  width: 80%;
-  /*.block1, .block2{
-  	.cell-text {
-  		background-color: rgba(250, 250, 250, .6);
-  		display: block;
-  		font-size: 3em;
-  		margin-top: 30%;
-  		text-align: center;
-  		width: 100%;
-  	}
-  }*/ }
+  width: 80%; }
   #info-wrapper .cell-text {
     background-color: rgba(250, 250, 250, 0.6);
     display: block;
@@ -642,10 +637,15 @@ p, li {
   background-size: cover; }
 
 .box8 {
-  background: url("../img/woman2.jpg") no-repeat center center;
+  background: url("../img/home2.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+
+/***************************** SINGLE INFO ****************************************/
+#info-single {
+  margin: 0 auto;
+  width: 60%; }
 
 /*# sourceMappingURL=style.css.map */
