@@ -3,6 +3,7 @@ $(document).ready( function() {
 	$('.woman').on('click', function(){
 		hideContent();
 		$('#woman').show();
+      $('#woman-category').show();
 		renderGrid();
 	   
 	}); 
@@ -10,6 +11,7 @@ $(document).ready( function() {
     $('.man').on('click', function(){
 		hideContent();
 		$('#man').show();
+      $('#man-category').show();
 		renderGrid();
 	   
     });
@@ -17,12 +19,14 @@ $(document).ready( function() {
     $('.children').on('click', function(){
 		hideContent();
 		$('#kids').show();
+      $('#kids-category').show();
 		renderGrid();
     });
 
     $('.home').on('click', function(){
 		hideContent();
 		$('#home').show();
+      $('#home-category').show();
 		renderGrid();
 		});
 	renderGrid();
@@ -30,14 +34,18 @@ $(document).ready( function() {
 
 function hideContent() {
 	$('#start-view').hide();
-   	$('.clothes').hide();
-    $('#category-top').show();
+   $('.clothes').hide();
+   //$('#woman-category').hide();
+   //$('#man-category').hide();
+   //$('#kids-category').hide();
+   //$('#home-category').hide();
+   $('.category-all').hide();
+   $('#category-top').show();
 }
-	
 
 function renderGrid() {
 	$('#info-wrapper, .clothes').isotope({
-	    itemSelector: '.grid-item',
-	    layoutMode: 'fitRows'
+	  itemSelector: '.grid-item',
+	  layoutMode: 'fitRows'
 	});
 }
