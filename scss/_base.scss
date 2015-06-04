@@ -98,7 +98,7 @@ p, li{
 
 
 /********************************* MENU *****************************************/
-#menu-top{
+#menu-top, #menu-top-info{
 	background-color: #355515;
 	color: white;
 	height: 50px;
@@ -126,6 +126,15 @@ p, li{
 			margin-top: -10px;
 			text-transform: uppercase;
 			font-size: .8em;
+
+			a{
+				color: white;
+				text-decoration: none;
+
+				&:visited{
+					color: white;
+				}
+			}
 		}
 	}
 }
@@ -340,7 +349,7 @@ p, li{
 }
 
 .box8{
-	background: url('../img/woman2.jpg') no-repeat center center;
+	background: url('../img/home2.jpg') no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
   	-o-background-size: cover;
