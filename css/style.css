@@ -467,6 +467,11 @@ p, li {
       color: white; }
 
 /********************************* CATEGORY BAR*****************************************/
+.shop-title a {
+  color: #355515; }
+  .shop-title a:visited {
+    color: #355515; }
+
 #category-top {
   display: none;
   margin-top: 50px;
