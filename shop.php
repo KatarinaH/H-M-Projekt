@@ -127,114 +127,168 @@
 		<div class="clothes" id="man">
 			<div class="grid-item cell-item t-shirt all">
 				<img src="clothes/man/t-shirt1.jpg" alt="T-shirt">
+				<p>T-shirt</p>
+				<p>99:-</p>
 			</div>
 
 			<div class="grid-item cell-item jacket all">
 				<img src="clothes/man/jacket1.jpg" alt="jacket">
+				<p>Jacket</p>
+				<p>399:-</p>
 			</div>
 
 			<div class="grid-item cell-item t-shirt all">
 				<img src="clothes/man/t-shirt2.jpg" alt="T-shirt">
+				<p>T-shirt</p>
+				<p>99:-</p>
 			</div>
 
 			<div class="grid-item cell-item jeans all">
 				<img src="clothes/man/jeans1.jpg" alt="jeans">
+				<p>Jeans</p>
+				<p>399:-</p>
 			</div>
 
 			<div class="grid-item cell-item jacket all">
 				<img src="clothes/man/jacket2.jpg" alt="jacket">
+				<p>Jacket</p>
+				<p>499:-</p>
 			</div>
 
 			<div class="grid-item cell-item jeans all">
 				<img src="clothes/man/jeans2.jpg" alt="jeans">
+				<p>Jeans</p>
+				<p>399:-</p>
 			</div>
 
 			<div class="grid-item cell-item t-shirt all">
 				<img src="clothes/man/t-shirt2.jpg" alt="T-shirt">
+				<p>T-shirt</p>
+				<p>129:-</p>
 			</div>
 
 			<div class="grid-item cell-item jeans all">
 				<img src="clothes/man/jeans3.jpg" alt="jeans">
+				<p>Jeans</p>
+				<p>399:-</p>
 			</div>
 
 			<div class="grid-item cell-item t-shirt all">
 				<img src="clothes/man/t-shirt4.jpg" alt="T-shirt">
+				<p>T-shirt</p>
+				<p>129:-</p>
 			</div>
 		</div>
 
 		<div class="clothes" id="kids">
 			<div class="grid-item cell-item top all">
 				<img src="clothes/kids/top1.jpg" alt="top">
+				<p>Top</p>
+				<p>79:-</p>
 			</div>
 
 			<div class="grid-item cell-item shorts all">
 				<img src="clothes/kids/shorts1.jpg" alt="shorts">
+				<p>Shorts</p>
+				<p>99:-</p>
 			</div>
 
 			<div class="grid-item cell-item top all">
 				<img src="clothes/kids/top2.jpg" alt="top">
+				<p>Top</p>
+				<p>79:-</p>
 			</div>
 
 			<div class="grid-item cell-item pants all">
 				<img src="clothes/kids/pants1.jpg" alt="pants">
+				<p>Pants</p>
+				<p>199:-</p>
 			</div>
 
 			<div class="grid-item cell-item shorts all">
 				<img src="clothes/kids/shorts3.jpg" alt="shorts">
+				<p>Shorts</p>
+				<p>49:-</p>
 			</div>
 
 			<div class="grid-item cell-item pants all">
 				<img src="clothes/kids/pants2.jpg" alt="pants">
+				<p>Pants</p>
+				<p>149:-</p>
 			</div>
 
 			<div class="grid-item cell-item top all">
 				<img src="clothes/kids/top3.jpg" alt="top">
+				<p>Top</p>
+				<p>49:-</p>
 			</div>
 
 			<div class="grid-item cell-item shorts all">
 				<img src="clothes/kids/shorts2.jpg" alt="shorts">
+				<p>Shorts</p>
+				<p>99:-</p>
 			</div>
 
 			<div class="grid-item cell-item top all">
 				<img src="clothes/kids/top4.jpg" alt="top">
+				<p>Top</p>
+				<p>99:-</p>
 			</div>
 		</div>
 
 		<div class="clothes" id="home">
 			<div class="grid-item cell-item kitchen all">
 				<img src="clothes/home/kitchen1.jpg" alt="kitchen">
+				<p>Towel</p>
+				<p>149:-</p>
 			</div>
 
 			<div class="grid-item cell-item livingroom all">
 				<img src="clothes/home/livingroom2.jpg" alt="livingroom">
+				<p>Pillow</p>
+				<p>69:-</p>
 			</div>
 
 			<div class="grid-item cell-item kitchen all">
 				<img src="clothes/home/kitchen2.jpg" alt="kitchen">
+				<p>Tablecloth</p>
+				<p>129:-</p>
 			</div>
 
 			<div class="grid-item cell-item bedroom all">
 				<img src="clothes/home/bedroom2.jpg" alt="bedroom">
+				<p>Bed Set</p>
+				<p>199:-</p>
 			</div>
 
 			<div class="grid-item cell-item kitchen all">
 				<img src="clothes/home/kitchen3.jpg" alt="kitchen">
+				<p>Apron</p>
+				<p>99:-</p>
 			</div>
 
 			<div class="grid-item cell-item bedroom all">
 				<img src="clothes/home/bedroom1.jpg" alt="bedroom">
+				<p>Bed Set</p>
+				<p>199:-</p>
 			</div>
 
 			<div class="grid-item cell-item kitchen all">
 				<img src="clothes/home/kitchen4.jpg" alt="kitchen">
+				<p>Tablecloth</p>
+				<p>229:-</p>
 			</div>
 
 			<div class="grid-item cell-item livingroom all">
 				<img src="clothes/home/livingroom1.jpg" alt="livingroom">
+				<p>Pillow</p>
+				<p>99:-</p>
 			</div>
 
 			<div class="grid-item cell-item livingroom all">
 				<img src="clothes/home/livingroom3.jpg" alt="livingroom">
+				<p>Blanket</p>
+				<p>99:-</p>
 			</div>
 		</div>
 	</div>
