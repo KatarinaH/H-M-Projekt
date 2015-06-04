@@ -38,7 +38,7 @@ $(document).ready( function() {
         });
     });
     $('#boxclose').click(function(){
-        $('#box').animate({'top':'-100%'},500,function(){
+        $('#box').animate({'top':'-110%'},500,function(){
             $('#overlay').fadeOut('fast');
         });
     });

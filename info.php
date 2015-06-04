@@ -32,9 +32,6 @@
 			<p>
 				Fusce ac nunc vitae odio auctor lobortis. Cras et convallis tellus. Nulla vitae finibus augue, non tincidunt magna. Suspendisse quis ipsum sed leo volutpat ultrices. Mauris posuere, libero id dapibus dictum, risus lorem ullamcorper velit, eget tristique tortor odio et odio. Proin malesuada iaculis nibh in pharetra. Suspendisse nec ultricies orci. Mauris rhoncus iaculis tempor.
 			</p>
-			<p>
-				Praesent lacinia posuere orci, in semper nulla pretium a. In a augue at purus lacinia hendrerit eu ac ante. Sed malesuada magna vitae quam consequat, nec vehicula dui dignissim. Proin venenatis aliquet efficitur. Duis lobortis justo elit, a vehicula elit ornare euismod. Nulla facilisi. Aliquam tincidunt leo in nibh pretium, ut mattis lorem tempus.
-			</p>
 			<div class="info-img">
 				<img class="popup" src="img/cotton.jpg">
 				<img class="popup" src="img/woman.jpg">

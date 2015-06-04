@@ -460,15 +460,11 @@ p, li {
       #menu-top ul li img, #menu-top-info ul li img {
         float: left;
         height: 30px; }
-      #menu-top ul li s
-      a, #menu-top-info ul li s
-      a {
-        color: white;
-        text-decoration: none; }
-        #menu-top ul li s
-        a:visited, #menu-top-info ul li s
-        a:visited {
-          color: white; }
+  #menu-top a, #menu-top-info a {
+    color: white;
+    text-decoration: none; }
+    #menu-top a:visited, #menu-top-info a:visited {
+      color: white; }
 
 /********************************* CATEGORY BAR*****************************************/
 #category-top {
@@ -588,7 +584,7 @@ p, li {
     z-index: 100; }
   #info-wrapper .box {
     position: fixed;
-    top: -100%;
+    top: -110%;
     left: 10%;
     right: 10%;
     background-color: #fff;
