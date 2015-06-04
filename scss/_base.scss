@@ -144,6 +144,12 @@ p, li{
 }
 
 /********************************* CATEGORY BAR*****************************************/
+.shop-title a {
+	color: #355515;
+	&:visited {
+		color: #355515;
+	}
+}
 
 #category-top{
 	display: none;
