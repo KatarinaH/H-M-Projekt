@@ -516,6 +516,27 @@ p, li {
     -o-background-size: cover;
     background-size: cover; }
 
+/********************************* CLOTHES ***************************************/
+.category-side {
+  float: left;
+  margin: 2%;
+  width: 20%;
+  outline: 1px solid green; }
+
+.clothes {
+  float: left;
+  margin: 2% auto;
+  outline: 1px solid red;
+  text-align: center;
+  width: 60%; }
+  .clothes .cell-item {
+    margin: 2%;
+    outline: 1px solid #888888;
+    width: 20%; }
+    .clothes .cell-item img {
+      height: auto;
+      width: 100%; }
+
 #woman, #man, #kids, #home {
   display: none; }
 
