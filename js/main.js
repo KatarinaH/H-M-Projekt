@@ -1,6 +1,6 @@
 $(document).ready( function() {
   
-	$('.woman').on('click', function(){
+	$('#woman2, .woman').on('click', function(){
 		hideContent();
 		$('#woman').show();
       $('#woman-category').show();
@@ -8,7 +8,7 @@ $(document).ready( function() {
 	   
 	}); 
 
-    $('.man').on('click', function(){
+    $('#man2, .man').on('click', function(){
 		hideContent();
 		$('#man').show();
       $('#man-category').show();
@@ -16,19 +16,34 @@ $(document).ready( function() {
 	   
     });
 
-    $('.children').on('click', function(){
+    $('#children2, .children').on('click', function(){
 		hideContent();
 		$('#kids').show();
       $('#kids-category').show();
 		renderGrid();
     });
 
-    $('.home').on('click', function(){
+    $('#home2, .home').on('click', function(){
 		hideContent();
 		$('#home').show();
       $('#home-category').show();
 		renderGrid();
-		});
+   });
+
+
+
+   $('ul li').click(function() {
+      var itemName = $(this).attr('class');
+      console.log(itemName);
+
+      itemName = itemName.replace('filter-', '');
+
+      $('.clothes').isotope({
+         filter: '.'+itemName
+      });
+
+   });
+
 	renderGrid();
 
 
@@ -44,13 +59,11 @@ $(document).ready( function() {
     });
 });
 
+
+
 function hideContent() {
 	$('#start-view').hide();
    $('.clothes').hide();
-   //$('#woman-category').hide();
-   //$('#man-category').hide();
-   //$('#kids-category').hide();
-   //$('#home-category').hide();
    $('.category-all').hide();
    $('#category-top').show();
 }

@@ -7,10 +7,10 @@
 
 		<div id="category-top">
 			<ul>
-				<li class="woman" >dam</li>
-				<li class="man" >herr</li>
-				<li class="children" >barn</li>
-				<li class="home">home</li>
+				<li id="woman2" class="filter-all">dam</li>
+				<li id="man2" class="filter-all" >herr</li>
+				<li id="children2" class="filter-all" >barn</li>
+				<li id="home2" class="filter-all">home</li>
 			</ul>
 			<hr />
 		</div>
@@ -35,85 +35,89 @@
 
 			<ul id="woman-category" class="category-all">
 				<span>WOMAN</span>
-				<li>Top</li>
-				<li>Dress</li>
-				<li>Jeans</li>
+				<li class="filter-top">Top</li>
+				<li class="filter-dress">Dress</li>
+				<li class="filter-jeans">Jeans</li>
+				<li class="filter-all">All</li>
 			</ul>	
 
 			
 			<ul id="man-category" class="category-all">
 				<span>MAN</span>
-				<li>T-shirt</li>
-				<li>Jeans</li>
-				<li>Jacket</li>
+				<li class="filter-t-shirt">T-shirt</li>
+				<li class="filter-jeans">Jeans</li>
+				<li class="filter-jacket">Jacket</li>
+				<li class="filter-all">All</li>
 			</ul>
 
 			
 			<ul id="kids-category" class="category-all">
 				<span>KIDS</span>
-				<li>Top</li>
-				<li>Shorts</li>
-				<li>Pants</li>
+				<li class="filter-top">Top</li>
+				<li class="filter-shorts">Shorts</li>
+				<li class="filter-pants">Pants</li>
+				<li class="filter-all">All</li>
 			</ul>
 
 			
 			<ul id="home-category" class="category-all">
 				<span>HOME</span>
-				<li>Livingroom</li>
-				<li>Kitchen</li>
-				<li>Bedroom</li>
+				<li class="filter-livingroom">Livingroom</li>
+				<li class="filter-kitchen">Kitchen</li>
+				<li class="filter-bedroom">Bedroom</li>
+				<li class="filter-all">All</li>
 			</ul>
 		</div>
 		<div class="clothes" id="woman">
-			<div class="grid-item cell-item top">
+			<div class="grid-item cell-item top all">
 				<img src="clothes/woman/top1.jpg" alt="Top">
 				<p>Top</p>
 				<p>249:-</p>
 			</div>
 
-			<div class="grid-item cell-item dress">
+			<div class="grid-item cell-item dress all">
 				<img src="clothes/woman/dress3.jpg" alt="Dress">
 				<p>Dress</p>
 				<p>399:-</p>
 			</div>
 
-			<div class="grid-item cell-item top">
+			<div class="grid-item cell-item top all">
 				<img src="clothes/woman/top2.jpg" alt="Top">
 				<p>Top</p>
 				<p>299:-</p>
 			</div>
 
-			<div class="grid-item cell-item jeans">
+			<div class="grid-item cell-item jeans all">
 				<img src="clothes/woman/jeans2.jpg" alt="Jeans">
 				<p>Jeans</p>
 				<p>349:-</p>
 			</div>
 
-			<div class="grid-item cell-item dress">
+			<div class="grid-item cell-item dress all">
 				<img src="clothes/woman/dress2.jpg" alt="Dress">
 				<p>Dress</p>
 				<p>299:-</p>
 			</div>
 
-			<div class="grid-item cell-item jeans">
+			<div class="grid-item cell-item jeans all">
 				<img src="clothes/woman/jeans1.jpg" alt="Jeans">
 				<p>Jeans</p>
 				<p>349:-</p>
 			</div>
 
-			<div class="grid-item cell-item top">
+			<div class="grid-item cell-item top all">
 				<img src="clothes/woman/top3.jpg" alt="Top">
 				<p>Top</p>
 				<p>299:-</p>
 			</div>
 
-			<div class="grid-item cell-item dress">
+			<div class="grid-item cell-item dress all">
 				<img src="clothes/woman/dress1.jpg" alt="dress">
 				<p>Dress</p>
 				<p>249:-</p>
 			</div>
 
-			<div class="grid-item cell-item top">
+			<div class="grid-item cell-item top all">
 				<img src="clothes/woman/top4.jpg" alt="Top">
 				<p>Top</p>
 				<p>99:-</p>
@@ -121,115 +125,115 @@
 		</div>
 
 		<div class="clothes" id="man">
-			<div class="grid-item cell-item t-shirt">
+			<div class="grid-item cell-item t-shirt all">
 				<img src="clothes/man/t-shirt1.jpg" alt="T-shirt">
 			</div>
 
-			<div class="grid-item cell-item jacket">
+			<div class="grid-item cell-item jacket all">
 				<img src="clothes/man/jacket1.jpg" alt="jacket">
 			</div>
 
-			<div class="grid-item cell-item t-shirt">
+			<div class="grid-item cell-item t-shirt all">
 				<img src="clothes/man/t-shirt2.jpg" alt="T-shirt">
 			</div>
 
-			<div class="grid-item cell-item jeans">
+			<div class="grid-item cell-item jeans all">
 				<img src="clothes/man/jeans1.jpg" alt="jeans">
 			</div>
 
-			<div class="grid-item cell-item jacket">
+			<div class="grid-item cell-item jacket all">
 				<img src="clothes/man/jacket2.jpg" alt="jacket">
 			</div>
 
-			<div class="grid-item cell-item jeans">
+			<div class="grid-item cell-item jeans all">
 				<img src="clothes/man/jeans2.jpg" alt="jeans">
 			</div>
 
-			<div class="grid-item cell-item t-shirt">
+			<div class="grid-item cell-item t-shirt all">
 				<img src="clothes/man/t-shirt2.jpg" alt="T-shirt">
 			</div>
 
-			<div class="grid-item cell-item jeans">
+			<div class="grid-item cell-item jeans all">
 				<img src="clothes/man/jeans3.jpg" alt="jeans">
 			</div>
 
-			<div class="grid-item cell-item t-shirt">
+			<div class="grid-item cell-item t-shirt all">
 				<img src="clothes/man/t-shirt4.jpg" alt="T-shirt">
 			</div>
 		</div>
 
 		<div class="clothes" id="kids">
-			<div class="grid-item cell-item top">
+			<div class="grid-item cell-item top all">
 				<img src="clothes/kids/top1.jpg" alt="top">
 			</div>
 
-			<div class="grid-item cell-item shorts">
+			<div class="grid-item cell-item shorts all">
 				<img src="clothes/kids/shorts1.jpg" alt="shorts">
 			</div>
 
-			<div class="grid-item cell-item top">
+			<div class="grid-item cell-item top all">
 				<img src="clothes/kids/top2.jpg" alt="top">
 			</div>
 
-			<div class="grid-item cell-item pants">
+			<div class="grid-item cell-item pants all">
 				<img src="clothes/kids/pants1.jpg" alt="pants">
 			</div>
 
-			<div class="grid-item cell-item shorts">
+			<div class="grid-item cell-item shorts all">
 				<img src="clothes/kids/shorts3.jpg" alt="shorts">
 			</div>
 
-			<div class="grid-item cell-item pants">
+			<div class="grid-item cell-item pants all">
 				<img src="clothes/kids/pants2.jpg" alt="pants">
 			</div>
 
-			<div class="grid-item cell-item top">
+			<div class="grid-item cell-item top all">
 				<img src="clothes/kids/top3.jpg" alt="top">
 			</div>
 
-			<div class="grid-item cell-item shorts">
+			<div class="grid-item cell-item shorts all">
 				<img src="clothes/kids/shorts2.jpg" alt="shorts">
 			</div>
 
-			<div class="grid-item cell-item top">
+			<div class="grid-item cell-item top all">
 				<img src="clothes/kids/top4.jpg" alt="top">
 			</div>
 		</div>
 
 		<div class="clothes" id="home">
-			<div class="grid-item cell-item kitchen">
+			<div class="grid-item cell-item kitchen all">
 				<img src="clothes/home/kitchen1.jpg" alt="kitchen">
 			</div>
 
-			<div class="grid-item cell-item livingroom">
+			<div class="grid-item cell-item livingroom all">
 				<img src="clothes/home/livingroom2.jpg" alt="livingroom">
 			</div>
 
-			<div class="grid-item cell-item kitchen">
+			<div class="grid-item cell-item kitchen all">
 				<img src="clothes/home/kitchen2.jpg" alt="kitchen">
 			</div>
 
-			<div class="grid-item cell-item bedroom">
+			<div class="grid-item cell-item bedroom all">
 				<img src="clothes/home/bedroom2.jpg" alt="bedroom">
 			</div>
 
-			<div class="grid-item cell-item kitchen">
+			<div class="grid-item cell-item kitchen all">
 				<img src="clothes/home/kitchen3.jpg" alt="kitchen">
 			</div>
 
-			<div class="grid-item cell-item bedroom">
+			<div class="grid-item cell-item bedroom all">
 				<img src="clothes/home/bedroom1.jpg" alt="bedroom">
 			</div>
 
-			<div class="grid-item cell-item kitchen">
+			<div class="grid-item cell-item kitchen all">
 				<img src="clothes/home/kitchen4.jpg" alt="kitchen">
 			</div>
 
-			<div class="grid-item cell-item livingroom">
+			<div class="grid-item cell-item livingroom all">
 				<img src="clothes/home/livingroom1.jpg" alt="livingroom">
 			</div>
 
-			<div class="grid-item cell-item livingroom">
+			<div class="grid-item cell-item livingroom all">
 				<img src="clothes/home/livingroom3.jpg" alt="livingroom">
 			</div>
 		</div>
