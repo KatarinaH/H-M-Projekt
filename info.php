@@ -1,11 +1,5 @@
 <?php include 'header.php'; ?>
-	<div id="menu-top-info">
-		<img class="logo" src="img/h&m.png" alt="H&M Logo">
-		<ul>
-			<li><a href="shop.php"> shop </a></li>
-			<li><a href="index.php"> home </a></li>
-		</ul>
-	</div>
+<?php include 'menu-info.php';?>
 
 	<div id="info-wrapper">
 		<h1>VÅRT NAMN</h1>
@@ -14,7 +8,7 @@
 		<!--video-->
 		<div class="block3 grid-item">
 			<div class="video-container">
-				<iframe width="625px" height="360px" poster="/images/w3html5.gif" src="https://www.youtube.com/embed/cfcJVC_pnOk?autoplay=0&controls=0&showinfo=0&rel=0&#t=2s" frameborder="0" allowfullscreen></iframe>
+				<iframe width="625px" height="360px" poster="../img/conscious.jpg" src="https://www.youtube.com/embed/cfcJVC_pnOk?autoplay=0&controls=0&showinfo=0&rel=0&#t=2s" frameborder="0" allowfullscreen></iframe>
 			</div>
 		</div>
 		<!--#video--> 
