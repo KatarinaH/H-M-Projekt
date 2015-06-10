@@ -68,12 +68,68 @@
 				<li class="filter-all">All</li>
 			</ul>
 		</div>
+
+		<!--pop up box shop-->
+		<div class="overlayShop" id="overlayShop" style="display:none;"></div>
+
+		<div class="boxShop" id="boxShop">
+			<a class="boxcloseShop" id="boxcloseShop"><i class="fa fa-times"></i></a>
+			<img src="clothes/woman/top1.jpg" alt="Top">
+				<div class="clothesInfo">
+					<h3>Top</h3>
+					<p>249:-</p>
+					
+						<div class="colorPicker">
+							<p>Color:</p>
+							<div class="circle color1"></div>
+							<div class="circle color2"></div>
+							<div class="circle color3"></div>
+							<div class="circle color4"></div>
+						</div>
+						<div class="clearfix"></div>
+
+						<div class="sizePicker">
+							<p>Size:</p>
+							<div class="circle">
+								<p>34</p>
+							</div>
+							<div class="circle">
+								<p>36</p>
+							</div>
+							<div class="circle">
+								<p>38</p>
+							</div>
+							<div class="circle">
+								<p>40</p>
+							</div>
+							<div class="circle">
+								<p>42</p>
+							</div>
+							<div class="circle">
+								<p>44</p>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+
+					<h3>Produktbeskrivning</h3>
+					<p>CONSCIOUS. En ribbad topp i trikå av ekologisk bomullsblandning. Toppen har kort ärm med fastsytt uppvik.</p>
+
+					<h3>Detaljer</h3>
+					<p>57% bomull, 38% polyester, 5% elastan. Art.nr. 40-7802</p>
+					<input class="buy" type="button" value="Buy" name="buy">
+				</div>
+		</div>
+		<!--#pop up box shop-->
+
 		<div class="clothes" id="woman">
-			<div class="grid-item cell-item top all">
+
+			<div class="grid-item cell-item top all woman1">
 				<img src="clothes/woman/top1.jpg" alt="Top">
-				<p>Top</p>
-				<p>249:-</p>
-				<input class="buy" type="button" value="Buy" name="buy">
+				<div class="clothesInfo">
+					<p>Top</p>
+					<p>249:-</p>
+					<input class="buy" type="button" value="Buy" name="buy">
+				</div>
 			</div>
 
 			<div class="grid-item cell-item dress all">

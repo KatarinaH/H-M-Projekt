@@ -534,6 +534,23 @@ p, li {
 #shop-wrapper {
   width: 70%;
   margin: 0 auto; }
+  #shop-wrapper .buy {
+    background-color: #355515;
+    color: white;
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .8em;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border: 0;
+    margin: 3%;
+    padding: 2%;
+    line-height: 1em;
+    text-shadow: #C17C3A 0 -1px 0;
+    width: 50px;
+    height: 2em;
+    vertical-align: middle; }
   #shop-wrapper .category-side {
     float: left;
     margin-top: 2%;
@@ -561,25 +578,74 @@ p, li {
         padding-left: 5%;
         margin-top: 1%;
         margin-bottom: 4%; }
-    #shop-wrapper .clothes .buy {
-      background-color: #355515;
-      color: white;
-      float: right;
-      font-family: 'Open Sans', sans-serif;
-      font-size: .8em;
-      border-radius: 20px;
-      -webkit-border-radius: 20px;
-      -moz-border-radius: 20px;
-      border: 0;
-      margin: 3%;
-      padding: 2%;
-      line-height: 1em;
-      text-shadow: #C17C3A 0 -1px 0;
-      width: 50px;
-      height: 2em;
-      vertical-align: middle; }
   #shop-wrapper #woman, #shop-wrapper #man, #shop-wrapper #kids, #shop-wrapper #home, #shop-wrapper .category-all {
     display: none; }
+
+.overlayShop {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 100; }
+
+.boxShop {
+  position: fixed;
+  top: -110%;
+  left: 20%;
+  right: 20%;
+  background-color: #fff;
+  color: #7F7F7F;
+  padding: 20px;
+  border: 2px solid #ccc;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -khtml-border-radius: 20px;
+  -moz-box-shadow: 0 1px 5px #333;
+  -webkit-box-shadow: 0 1px 5px #333;
+  z-index: 101; }
+  .boxShop .boxcloseShop {
+    float: right;
+    width: 26px;
+    height: 26px;
+    margin-top: -10px;
+    cursor: pointer; }
+    .boxShop .boxcloseShop .fa-times {
+      color: #355515;
+      font-size: 2em; }
+  .boxShop img, .boxShop .clothesInfo {
+    float: left; }
+  .boxShop .clothesInfo {
+    padding-left: 2em;
+    width: 40%; }
+    .boxShop .clothesInfo h3 {
+      margin-bottom: -15px; }
+    .boxShop .clothesInfo .circle {
+      background-color: black;
+      border-radius: 100%;
+      height: 1em;
+      margin: 2%;
+      margin-top: 1.15em;
+      width: 1em; }
+      .boxShop .clothesInfo .circle p {
+        color: white;
+        font-size: .5em;
+        padding-left: .4em;
+        line-height: .2em;
+        vertical-align: middle; }
+    .boxShop .clothesInfo .colorPicker .color1 {
+      background-color: black; }
+    .boxShop .clothesInfo .colorPicker .color2 {
+      background-color: pink; }
+    .boxShop .clothesInfo .colorPicker .color3 {
+      background-color: black; }
+    .boxShop .clothesInfo .colorPicker .color4 {
+      background-color: pink; }
+    .boxShop .clothesInfo .colorPicker p, .boxShop .clothesInfo .colorPicker .circle {
+      float: left; }
+    .boxShop .clothesInfo .sizePicker p, .boxShop .clothesInfo .sizePicker .circle {
+      float: left; }
 
 /********************************************************************************/
 /***************************** INFO PAGE ****************************************/
