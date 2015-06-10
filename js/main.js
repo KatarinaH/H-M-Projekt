@@ -57,6 +57,18 @@ $(document).ready( function() {
             $('#overlay').fadeOut('fast');
         });
     });
+
+
+    $('.woman1').click(function(){
+        $('#overlayShop').fadeIn('fast',function(){
+            $('#boxShop').animate({'top':'10%'},500);
+        });
+    });
+    $('#boxcloseShop').click(function(){
+        $('#boxShop').animate({'top':'-110%'},500,function(){
+            $('#overlayShop').fadeOut('fast');
+        });
+    });
 });
 
 
